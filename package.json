@@ -12,7 +12,7 @@
     "react-router-dom": "^6.21.3",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://{dlama-istifanus}.github.io/{Shopper}"
+    "homepage": "https://{dlama-istifanus}.github.io/{my-app}"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
