@@ -12,9 +12,11 @@
     "react-router-dom": "^6.21.3",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://{dlama-istifanus}.github.io/{my-app}"
+    "homepage": "https://dlama-istifanus.github.io/my-app"
   },
   "scripts": {
+    "predeply": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
